@@ -1,12 +1,17 @@
-# TradingAgents: Comprehensive Project Documentation
+# Wallet Intelligent Stock Expert Trade (WISE Trade)- AI Trading System
 
-This document consolidates the entire development history and functional specifications of the `TradingAgents` project, from its initial concept to the final web application.
+This project collates the `TradingAgents` for trend prediction, communicating as an input with the Reinforcement Learning Agent, from its initial Research concept to the final web application.
+
+The Reinforcement Learning Agent will utilize the LLM pipeline to output buy, hold, and sell options trading strategies, along with a corresponding profit chance.
+The following content is a modified version of the Trading Agents and the add-on Reinforcement Learning-powered project.
+
+This product is intended for academic research purposes only and does not constitute investment advice. 
 
 ---
 
 ## Table of Contents
 
-- [TradingAgents: Comprehensive Project Documentation](#tradingagents-comprehensive-project-documentation)
+- [Wallet Intelligent Stock Expert Trade (WISE Trade)- AI Trading System](#Wallet-Intelligent)
   - [Table of Contents](#table-of-contents)
   - [1. Project Overview](#1-project-overview)
     - [Core Concept](#core-concept)
@@ -33,7 +38,9 @@ This document consolidates the entire development history and functional specifi
 
 ### Core Concept
 
-`TradingAgents` is a multi-agent financial analysis framework that mimics the operational model of a real-world trading firm. It deploys multiple specialized, LLM-driven AI agents to collaboratively perform market analysis, strategy formulation, and risk management, ultimately delivering high-quality trading decisions.
+`TradingAgents` is a multi-agent financial analysis framework that mimics the operational model of a real-world trading firm. It deploys multiple specialized, LLM-driven AI agents to collaboratively perform market analysis, strategy formulation, and risk management, ultimately delivering high-quality trading decisions. 
+
+`RL Agent` takes the financial analysis advice and processes the self-trading to make a profit. RL will be able  to label 1/0, and it requires a specific transaction (with additional actions such as call, put, or hold).
 
 ### System Architecture
 
@@ -49,15 +56,9 @@ The system is composed of several collaborative agent teams:
 2. **Researcher Team**:
     * Critically evaluates analyst reports through a debate format, balancing risk and reward.
 
-3. **Trader Agent**:
+3. **RL Trader Agent**:
     * Synthesizes all information to formulate a concrete trading plan.
-
-4. **Risk Management & Portfolio Manager**:
-    * Assesses trade risk, with the Portfolio Manager making the final decision.
-
-<p align="center">
-  <img src="assets/schema.png" style="width: 100%; height: auto;">
-</p>
+<img width="1186" height="542" alt="image" src="https://github.com/user-attachments/assets/656a5d2d-e0cc-454b-8177-9f55289a6ce2" />
 
 ---
 
