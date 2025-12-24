@@ -38,7 +38,9 @@ This product is intended for academic research purposes only and does not consti
 
 ### Core Concept
 
-`TradingAgents` is a multi-agent financial analysis framework that mimics the operational model of a real-world trading firm. It deploys multiple specialized, LLM-driven AI agents to collaboratively perform market analysis, strategy formulation, and risk management, ultimately delivering high-quality trading decisions.
+`TradingAgents` is a multi-agent financial analysis framework that mimics the operational model of a real-world trading firm. It deploys multiple specialized, LLM-driven AI agents to collaboratively perform market analysis, strategy formulation, and risk management, ultimately delivering high-quality trading decisions. 
+
+`RL Agent` takes the financial analysis advice and processes the self-trading to make a profit. RL will be able  to label 1/0, and it requires a specific transaction (with additional actions such as call, put, or hold).
 
 ### System Architecture
 
@@ -54,15 +56,9 @@ The system is composed of several collaborative agent teams:
 2. **Researcher Team**:
     * Critically evaluates analyst reports through a debate format, balancing risk and reward.
 
-3. **Trader Agent**:
+3. **RL Trader Agent**:
     * Synthesizes all information to formulate a concrete trading plan.
-
-4. **Risk Management & Portfolio Manager**:
-    * Assesses trade risk, with the Portfolio Manager making the final decision.
-
-<p align="center">
-  <img src="assets/schema.png" style="width: 100%; height: auto;">
-</p>
+<img width="1186" height="542" alt="image" src="https://github.com/user-attachments/assets/656a5d2d-e0cc-454b-8177-9f55289a6ce2" />
 
 ---
 
