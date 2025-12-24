@@ -1,12 +1,17 @@
-# TradingAgents: Comprehensive Project Documentation
+# Wallet Intelligent Stock Expert Trade (WISE Trade)- AI Trading System
 
-This document consolidates the entire development history and functional specifications of the `TradingAgents` project, from its initial concept to the final web application.
+This project collates the `TradingAgents` for trend prediction, communicating as an input with the Reinforcement Learning Agent, from its initial Research concept to the final web application.
+
+The Reinforcement Learning Agent will utilize the LLM pipeline to output buy, hold, and sell options trading strategies, along with a corresponding profit chance.
+The following content is a modified version of the Trading Agents and the add-on Reinforcement Learning-powered project.
+
+This product is intended for academic research purposes only and does not constitute investment advice. 
 
 ---
 
 ## Table of Contents
 
-- [TradingAgents: Comprehensive Project Documentation](#tradingagents-comprehensive-project-documentation)
+- [TradingAgents: Comprehensive Project Documentation](#Wallet-Intelligent)
   - [Table of Contents](#table-of-contents)
   - [1. Project Overview](#1-project-overview)
     - [Core Concept](#core-concept)
