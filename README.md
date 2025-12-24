@@ -11,7 +11,7 @@ This product is intended for academic research purposes only and does not consti
 
 ## Table of Contents
 
-- [TradingAgents: Comprehensive Project Documentation](#Wallet-Intelligent)
+- [Wallet Intelligent Stock Expert Trade (WISE Trade)- AI Trading System](#Wallet-Intelligent)
   - [Table of Contents](#table-of-contents)
   - [1. Project Overview](#1-project-overview)
     - [Core Concept](#core-concept)
